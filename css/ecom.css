@@ -1,0 +1,538 @@
+d:\games\FDR-2404\class07\css d:\games\FDR-2404\class07\images/* All common CSS start. */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* All common css end. */
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type:none;
+}
+
+
+.container{
+    width: 1320px;
+    margin:0 auto;
+}
+
+
+ /* Header file start. */
+
+#header_part
+{
+
+}
+ .logo_with_menu
+ {
+display: flex;
+
+ }
+
+ .logo
+ {
+ width: 40%;
+ padding-top: 20px;
+
+
+ }
+ .logo img:hover
+ {
+
+    opacity: 0.7;
+
+ }
+
+ .menu{
+width: 40%;
+font-family: "Montserrat", sans-serif;
+
+
+ }
+ .menu ul {
+    display: flex;
+ }
+ .menu ul li a{
+    padding: 0 15px;
+    line-height: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    transition: font-size 0.2s ease, color 0.2s ease; /* Smooth transition */
+
+ }
+ .menu ul li a:hover{
+    font-size: 20px;
+    color: rgb(16, 6, 5);
+    }
+ .icons
+ {
+width: 20%;
+padding-top: 45px;
+
+ }
+.icons i{
+    margin-left: 30px;
+}
+
+ /* Header file end. */
+
+ #banner_part
+ {
+    padding-top: 200px;
+    padding-bottom: 135px;
+    background-image: url(../images/main.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+   
+
+ }
+ .banner_text h1 {
+    font-size: 64px;
+    font-weight: 600;
+ 
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    padding-right: 660px;
+    margin-bottom: 13px;
+}
+.banner_text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    padding-right: 753px;
+    margin-top: 13px;
+    margin-bottom: 25px;
+}
+ .banner_text a 
+ {
+    padding: 35px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+  
+    font-family: "Montserrat", sans-serif;  
+    color: rgb(8, 0, 0);
+    background: white;
+
+ }
+ .banner_text a:hover
+ {
+opacity: 0.7;
+
+ }
+ .brand_images
+ {
+    width: 1320px;
+    height: 200px;
+    background-image: url(../images/brands.png);
+
+ }
+ .product_container
+ {
+    width: 1320px;
+    height: 555px;
+    margin: 0 auto;
+ }
+ .product_title_text
+ {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    padding-bottom: 70px;
+  
+
+ }
+ .products
+ {
+    width: 1320px;
+    height: 555px;
+    
+    display: flex;
+
+ }
+
+ #product1
+ {
+    width: 315px;
+    height: 430px;
+    box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.12);
+    margin-right: 50px;
+    border-radius: 5px;
+ }
+ #product1_image
+ {
+    width: 315px;
+    height: 300px;
+    background-image: url(../images/creed.png);
+    background-repeat: no-repeat;
+
+   
+ }
+.product1_name a{
+    font-size: 30px;
+    font-weight: 600;
+  color: black;
+  line-height: 16px;
+
+
+
+}
+
+.product1_price
+{
+    font-size: 20px;
+    font-weight: 700;
+  color: black;
+  line-height: 1px;
+
+}
+ #product2
+ {
+    width: 315px;
+    height: 430px;
+    padding-right: 3px;
+padding-left: 3px;
+box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.12);
+margin-right: 50px;
+border-radius: 5px;
+ }
+ #product2_image
+ {
+    width: 315px;
+    height: 300px;
+    background-image: url(../images/A\ III.png);
+    background-repeat: no-repeat;
+
+ }
+.product2_name a{
+    font-size: 27px;
+    font-weight: 600;
+  color: black;
+  line-height: 16px;
+
+
+}
+
+.product2_price
+{
+    font-size: 20px;
+    font-weight: 700;
+  color: black;
+  line-height: 1px;
+}
+ #product3
+ {
+    width: 315px;
+    height: 430px;
+    padding-left: 3px;
+    box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.12);
+    margin-right: 50px;
+    border-radius: 5px;
+ }
+ #product3_image
+ {
+    width: 315px;
+    height: 300px;
+    background-image: url(../images/Xerjoff\ –\ Naxos\ .png);
+    background-repeat: no-repeat;
+ }
+.product3_name a{
+    font-size: 30px;
+    font-weight: 600;
+  color: black;
+  line-height: 16px;
+
+
+}
+
+.product3_price
+{
+    font-size: 20px;
+    font-weight: 700;
+  color: black;
+  line-height: 1px;
+}
+ #product4
+ {
+    width: 315px;
+    height: 430px;
+    padding-right: 3px;
+    padding-left: 3px;
+    box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.12);
+    margin-right: 50px;
+    border-radius: 5px;
+ }
+ #product4_image
+ {
+    width: 315px;
+    height: 300px;
+    background-image: url(../images/Link\ -\ Xerjoff\ –\ Accento.png);
+    background-repeat: no-repeat;
+ }
+.product4_name a{
+    font-size: 30px;
+    font-weight: 600;
+  color: black;
+  line-height: 16px;
+
+
+}
+
+.product4_price
+{
+    font-size: 20px;
+    font-weight: 700;
+  color: black;
+  line-height: 1px;
+}
+
+#banner2
+{
+   padding-top: 35px;
+   padding-bottom: 100px;
+   background-image: url(../images/Banner2.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   margin-top: 70px;
+   margin-bottom: 70px;
+
+}
+
+.banner2_text h1 {
+font-size: 35px;
+font-weight: 600;
+font-family: "Montserrat", sans-serif;
+color: white;
+}
+
+.banner2_text p {
+   font-size: 20px;
+   font-weight: 400;
+   font-family: "Montserrat", sans-serif;
+   color: white;
+   padding-right: 619px;
+}
+
+.banner2_text a 
+{
+   padding: 25px;
+   border-radius: 2px;
+   font-size: 16px;
+   font-weight: 500;
+ 
+   font-family: "Montserrat", sans-serif;  
+   color: rgb(8, 0, 0);
+   background: white;
+
+}
+
+.frame_container
+{
+   width:1320px ;
+   height: 655px;
+   margin: 0 auto;
+   display: flex;
+   
+}
+.frame_minicontainer
+{
+   width: 500px;
+   height: 250px;
+   margin-top: 380px;
+margin-left: 45px;
+background: white;
+box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.12);
+}
+
+.frame6
+{
+width: 45%;
+height: 522px;
+background-image: url(../images/frame6.png);
+background-repeat: no-repeat;
+background-position: center;
+
+}
+.frame6 h1
+{
+font-size: 22px;
+font-weight: 600;
+margin-left: 30px;
+padding-top: 30px;
+font-family: "Montserrat", sans-serif;
+
+
+}
+.frame6 p {
+   font-size: 17px;
+   font-weight: 400;
+   margin-left: 30px;
+   padding-right: 1px;
+   font-family: "Montserrat", sans-serif;
+}
+.frame6 a {
+   font-size: 18px;
+   font-weight: 400;
+   margin-left: 30px;
+   width: 222px;
+   height: 58px;
+   background-color: black;
+   color: white;
+   padding-top: 25px;
+text-align: center;
+border-radius: 5px;
+font-family: "Montserrat", sans-serif;
+}
+.frame_gap
+{
+width: 10%;
+}
+
+.frame7
+{
+width: 45%;
+height: 522px;
+background-image: url(../images/frame7.png);
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.frame7 h1
+{
+font-size: 22px;
+font-weight: 600;
+margin-left: 30px;
+padding-top: 30px;
+font-family: "Montserrat", sans-serif;
+
+}
+.frame7 p {
+   font-size: 17px;
+   font-weight: 400;
+   margin-left: 30px;
+   padding-right: 20px;
+   font-family: "Montserrat", sans-serif;
+}
+
+.frame7 a {
+   font-size: 18px;
+   font-weight: 400;
+   margin-left: 30px;
+   width: 222px;
+   height: 55px;
+   background-color: black;
+   color: white;
+   padding-top: 20px;
+text-align: center;
+border-radius: 5px;
+font-family: "Montserrat", sans-serif;
+}
+
+.qsection{
+   background-image: url(../images/Section.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 460px;
+   padding-top: 90px;
+}
+.footer_container
+{
+   width: 1877px;
+   height:433.88px ;
+   padding-top: 100px;
+margin: 0 auto;
+   background: rgb(3, 0, 0);
+}
+.footer_sub_container
+{
+
+margin:0px auto ;
+width: 1600px;
+height:371px;
+background-color: rgb(10, 0, 0);
+display: flex;
+
+}
+
+.footer_logo
+{
+background-image: url(../images/footerlogo.png);
+background-repeat: no-repeat;
+height: 200px;
+width: 150px;
+margin-right: 120px;
+}
+.text1
+{
+   margin-right: 120px;
+   font-size: 16.88px;
+   font-weight: 400;
+   color: white;
+   font-family: "Montserrat", sans-serif;
+}
+.text2
+{
+   margin-right: 50px;
+   font-size: 16.88px;
+   font-weight: 400;
+   color: white;
+   font-family: "Montserrat", sans-serif;
+}
+.text3
+{
+   margin-right: 150px;
+   font-size: 16.88px;
+   font-weight: 400;
+   color: white;
+   font-family: "Montserrat", sans-serif;
+}
+.text4
+{
+   margin-right: 50px;
+   font-size: 16.88px;
+   font-weight: 400;
+   color: white;
+   font-family: "Montserrat", sans-serif;
+}
+
+.footer_container2
+{
+   width: 1877px;
+   height:36px ;
+
+margin: 0 auto;
+   background: rgb(0, 0, 0);
+   display: flex;
+}
+
+.ftext_1
+{
+   margin-left: 130px;
+   width: 50%;
+   font-size: 16.88;
+   font-weight: 400;
+   color: white;
+   font-family: "Montserrat", sans-serif;
+}
+
+.f_logo 
+{
+   width: 50%;
+   background-image: url(../images/paymentlogo.png);
+   background-position:center;
+   background-size: contain;
+   background-repeat: no-repeat;
+
+
+}
